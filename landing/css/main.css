@@ -1,0 +1,124 @@
+body {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  background-color: #efe8ff;
+  font-family: sans-serif;
+}
+
+.outter-box {
+  height: auto;
+  width: 1000px;
+  background-color: #FFFFFF;
+  display: block;
+  margin: 0 auto;
+  border-radius: 4px;
+  margin-top: 60px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  padding-bottom: 30px;
+}
+
+.logo {
+  height: 40px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+.interest {
+  font-size: 25px;
+  color: #272727;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  .logo {
+    height: 30px;
+    padding-bottom: 0px;
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .outter-box {
+    width: 95%;
+  }
+}
+
+
+video {
+  width: 778px;
+  height: 437px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  video {
+    width: 506px;
+    height: 284px;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  video {
+    width: 445px;
+    height: 251px;
+    margin-top: 20px;
+  }
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 50%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: none;
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  display: block;
+  margin: 0 auto;
+  outline: 0;
+  background: #efe8ff;
+	border: 1px solid #efe8ff;
+	border-radius: 2px;
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=text], select, textarea .top {
+  margin-top: 20px;
+}
+
+::-webkit-input-placeholder{
+   color: #272727;
+}
+
+::-moz-input-placeholder{
+   color: #272727;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #272727;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #efe8ff;
+  color: #272727;
+}
